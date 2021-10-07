@@ -5,12 +5,12 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
-
+const clause=[]
 function addcart(item) {
   
     let additem = document.querySelector(".badge");
     additem.innerHTML = parseInt(additem.innerHTML) + 1;
-
+ clause.push(item)
     let option = document.querySelector(`.${item}`);
     option.innerHTML=""
   
