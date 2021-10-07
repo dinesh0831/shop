@@ -13,9 +13,18 @@ function addcart(item) {
 
     let option = document.querySelector(`.${item}`);
     option.innerHTML=""
-    option.setAttribute("class","disabled")
   
-    
 
+}
+function cart()
+{
+    let additem = document.querySelector(".badge");
+    additem.innerHTML = 0;
+    clause.map(clause=>{
+        let option=document.querySelector(`.${clause}`);
+        
+        option.innerHTML="Add to Cart"
+    })
+    console.log(clause)
 }
 
